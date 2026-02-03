@@ -23,7 +23,7 @@
 
 
 
-!\[Creation of branches](images/setting up github.png)
+!\[Creation of branches](images/setting_up_github.png)
 
 
 
@@ -43,7 +43,7 @@ Para la creación del repositorio y la creación y uso correcto de ramas y carpe
 
 &nbsp;
 
-!\[Results of using git commands for GitHub](images/results in github.png)
+!\[Results of using git commands for GitHub](images/results_in_github.png)
 
 
 
@@ -63,7 +63,7 @@ Después de habernos familiarizado más con los comandos usados desde la termina
 
 
 
-!\[Code + results](images/welcome message.png)
+!\[Code + results](images/welcome_message.png)
 
 
 
