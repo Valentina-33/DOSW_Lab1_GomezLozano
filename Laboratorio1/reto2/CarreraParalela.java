@@ -21,8 +21,8 @@ public class CarreraParalela {
     private static int cantidadNumeros(List<Integer> numeros) {return numeros.size();}
 
     public static class Resultado {
-        public int minimo;
         public int maximo;
+        public int minimo;
         public int cantidad; 
 
         public Resultado (int maximo, int minimo, int cantidad) {
@@ -42,11 +42,12 @@ public class CarreraParalela {
 
     public static void main(String[] args) {
         List<Integer> numeros = List.of(3, 7, 2, 9, 5);
-        int maximo = calcularMaximo(numeros);
-        System.out.println("El número máximo es: " + maximo);
-        Resultado r = calcularMinResultado(numeros);
 
-        System.out.println("Cantidad de números: " + r.cantidad + ", Mínimo: " + r.minimo + " y Máximo: " + r.maximo);
+    
+        Resultado resultado = calcularMinResultado(numeros);
+
+        System.out.println(String.format(
+            "El número mínimo es: %d, el máximo es: %d, y la cantidad de datos es %d", resultado.minimo, resultado.maximo, resultado.cantidad));
     }
 }
     
