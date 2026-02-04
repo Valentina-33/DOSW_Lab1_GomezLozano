@@ -5,10 +5,14 @@ import java.util.List;
 public class CarreraParalela {
 
     public static int calcularMaximo(List<Integer> numeros) {
-        return numeros.stream()
+        int maximo = numeros.stream()
                 .mapToInt(Integer::intValue)
                 .max()
                 .orElseThrow();
+        Boolean par = (maximo % 2 == 0) ? true : false;
+        System.out.println(par ? "El número máximo es par" : "El número máximo es impar");
+        return maximo;
+              
     }
 
     private static int calcularMinimo(List<Integer> numeros) {
@@ -39,6 +43,7 @@ public class CarreraParalela {
         int cantidad = cantidadNumeros(numeros);
         return new Resultado (maximo, minimo, cantidad);
     }
+
 
     public static void main(String[] args) {
         List<Integer> numeros = List.of(3, 7, 2, 9, 5);
