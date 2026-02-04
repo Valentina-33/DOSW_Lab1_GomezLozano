@@ -26,7 +26,12 @@ public class CarreraParalela {
                 .orElseThrow();
     }
 
-    private static int cantidadNumeros(List<Integer> numeros) {return numeros.size();}
+    private static int cantidadNumeros(List<Integer> numeros) {
+        int cantidad = numeros.size();
+        Boolean impar = (cantidad % 2 == 0) ? false : true;
+        System.out.println(impar ? "La cantidad de números en la lista es impar" : "La cantidad de números en la lista es par");
+        return numeros.size();}
+
 
     public static class Resultado {
         public int maximo;
