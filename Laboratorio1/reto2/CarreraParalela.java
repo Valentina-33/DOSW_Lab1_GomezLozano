@@ -63,9 +63,9 @@ public class CarreraParalela {
         public GranMeta (List<List<Integer>> listas) {
 
             String cuerpo = listas.stream()
-            .map(CarreraParalela::granMetaAuxiliar)
+            .map(lista -> granMetaAuxiliar(lista))
             .map (r -> String.format(
-                "El mínimo es: %d, el máximo es: %d, la cantidad de números es: %d, el máximo es múltipo de 2: %b, divisor de 2: %b y CantPar: %b", 
+                "Min: %d | Max: %d | Cantidad: %d | MaxPar: %b | Divisor2: %b | CantPar: %b", 
                 r.minimo, r.maximo, r.cantidad,
                 r.maximoPar, r.maximoDivisorDeDos, r.cantidadPar
             )).collect(Collectors.joining(" y la segunda lista tiene: "));
