@@ -10,7 +10,11 @@ public class CarreraParalela {
                 .max()
                 .orElseThrow();
         Boolean par = (maximo % 2 == 0) ? true : false;
+
+        Boolean divisor = (2 % maximo == 0)? true : false;
+
         System.out.println(par ? "El número máximo es par" : "El número máximo es impar");
+        System.out.println(divisor ? "El número máximo es divisor de dos" : "El número máximo no es divisor de dos");
         return maximo;
               
     }
