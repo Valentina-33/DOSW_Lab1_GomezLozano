@@ -1,91 +1,146 @@
-\# Maratón Git 2026-1
-
-
+\# Maratón Git 2026-1 LAB 1
 
 \## Integrantes 
-
-
 
 * Paula Valentina Lozano 
 * Ángela Gómez 
 
-
-
 ---
-
-
 
 \## Retos completados
 
-
-
 \### Reto: Configuración y creación de rama
 
-
-
 ![Creation of branches](images/setting_up_github.png)
-
-
 
 \*\*Descripción\*\*
 
 Para la creación del repositorio y la creación y uso correcto de ramas y carpetas, primero creamos en GitHub el repositorio, en donde la creadora le compartió a la otra integrante el link. De acá se clonó el repo y se comenzamos a crear las ramas correspondientes siguiendo el formato y diseño previamente planteado de Git Flow, el cual usa ramas como develop, feature y hotfix, aparte de la rama principal.
 
 
-
 ---
-
-
 
 \### Reto: Commit colaborativo 
 
 
-
-&nbsp;
-
 ![Results of using git commands for GitHub](images/results_in_github.png)
-
-
 
 \*\*Descripción\*\*
 
 Después de habernos familiarizado más con los comandos usados desde la terminal, logramos establecer de forma correcta las ramas a nivel local y global para asegurar prácticas eficientes y profesionales. 
 
-
-
 ---
-
-
-
 \## Reto 1: La Bienvenida
 
 
-
-
-
 ![Code + results](images/welcome_message.png)
-
-
 
 \*\*Descripción\*\*
 
 A partir de unas investigaciones sobre los principios de las funciones Lambda, pudimos resolver el problema de forma exitosa, en donde hacemos uso de 3 clases principales (Student, WelcomeMessage, Main) junto con herramientas como lo son format y map, por ejemplo. 
 
-
-
-
-
 ---
-
-
 
 \## Reto 2: Carrera en Paralelo 
 
 
+![Git commands](images/image.png)
 
+![Git commands](images/image-1.png)
+
+![Git commands](images/image-2.png)
+
+Primer choque:
+
+![Error message](images/image-3.png)
+
+![Git commands](images/image-4.png)
+
+![Git commands](images/image-5.png)
+
+Nuevo choque:
+
+![Error message](images/image-6.png)
+
+![Fixing fail](images/image-7.png)
+
+Otro choque:
+
+![Fixing fail](images/image-8.png)
+
+Cierre:
+
+![Git commands](images/image-9.png)
 
 
 \*\*Descripción\*\*
+
+Para este reto procuramos hacer la mayor cantidad de acciones desde la terminal directamente para reforzar y practicar comandos de Git. Acá nuevamente con el uso de Streams y lambdas aprendimos a obtener valores máximos y mínimos de una lista de números. 
+
+Asimismo, en este reto también generamos varios choques a la hora del merge, en donde algunos erores tuvieron que ser arreglados por ambas integrantes al hacerles pull a las ramas individuales del reto y así subir las versiones corregidas a la rama develop. 
+
+
+\## Reto 3: El eco misterioso
+
+![Git commands](images/image-10.png)
+
+![Git commands](images/image-11.png)
+
+![Git commands](images/image-12.png)
+
+Mensaje de choque:
+
+![Error message](images/image-13.png)
+
+
+\*\*Descripción\*\*
+
+En este reto aprendimos de nuevos tipos de datos como el StringBuilder y el StringBuffer, los cuales nos facilitaron la aplicación de los ejercicios planteados de repetir un mensaje y de invertir otro. Nuevamente trabajamos con los conceptos de merge, y cómo lidiar con los choques al editar mismas líneas de código de los ejercicios. 
+
+
+\## Reto 4: El tesoro de las llaves duplicadas
+
+![Git commands](images/image-14.png)
+
+
+\*\*Descripción\*\*
+
+Aunque ya estábamos familiarizadas con las estructuras de datos de HashTable HashMap, con este ejercicio logramos implementar estas estructuras junto con el uso de Streams, es decir, cómo aplicar estas herramientas dentro de la programación funcional. 
+
+En adición seguimos trabajando con los comandos git, en dónde algunas veces también realizamos pull request desde el GitHub para aprender de las diferentes formas en las que se puede realizar una misma acción. 
+
+
+\## Reto 5: Batalla de Conjuntos 
+
+![Git commands](images/image-15.png)
+
+![Git commands](images/image-16.png)
+
+Terminando reto 5:
+
+![Git commands](images/image-17.png)
+
+![Git commands](images/image-18.png)
+
+
+\*\*Descripción\*\*
+
+En este reto seguimos mirando y reforzando cómo usar algunas esctructuras de datos como HashTable y HashMap dentro del mundo de la programación funcional; acá también manejamos herramientas como .filter para obtener resultados con condiciones específicas dentro de una lista de valores, por ejemplo. 
+
+
+\## Reto 6: La máquina de decisiones 
+
+![Git commands](images/image-19.png)
+
+![Git commands](images/image-20.png)
+
+![Git commands](images/image-21.png)
+
+![Git commands](images/image-22.png)
+
+\*\*Descripción\*\*
+
+Para este último reto hacemos uso del comando switch el cuál nos ayuda a sintetizar código respecto a qué mensaje debería imprimir el programa, dependiendo de la frase clave que escriba el usuario. Acá usamos Runnable como lo pide la instrucción, ya que además este es ideal para este tipo de ejercicios. 
 
 
 
@@ -160,6 +215,9 @@ Git Documentation. (s.f.). Git Reference Manual. https://git-scm.com/docs
 Oracle. (2023). Java Platform, Standard Edition Documentation. https://docs.oracle.com/en/java/
 
 Bloch, J. (2018). Effective Java (3rd ed.). Addison-Wesley.
+
+---
+
 
 
 
